@@ -1,8 +1,8 @@
 {
   "name": "a-random-number-with-create",
   "version": "1.0.0",
-  "main": "dist/a-random-number.cjs.js",
-  "module": "dist/a-random-number.esm.js",
+  "main": "dist/a-random-number-with-create.cjs.js",
+  "module": "dist/a-random-number-with-create.esm.js",
   "license": "MIT",
   "repository": "https://github.com/mitchellhamilton/a-random-number",
   "devDependencies": {
