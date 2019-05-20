@@ -13,5 +13,11 @@
     "postinstall": "preconstruct dev",
     "build": "preconstruct build",
     "release": "yarn build && npm publish"
+  },
+  "preconstruct": {
+    "entrypoints": [
+      ".",
+      "create"
+    ]
   }
 }
