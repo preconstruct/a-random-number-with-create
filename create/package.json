@@ -1,4 +1,7 @@
 {
   "main": "dist/a-random-number-with-create.cjs.js",
-  "module": "dist/a-random-number-with-create.esm.js"
+  "module": "dist/a-random-number-with-create.esm.js",
+  "preconstruct": {
+    "source": "../src/create"
+  }
 }
