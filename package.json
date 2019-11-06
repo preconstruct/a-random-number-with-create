@@ -4,15 +4,16 @@
   "main": "dist/a-random-number-with-create.cjs.js",
   "module": "dist/a-random-number-with-create.esm.js",
   "license": "MIT",
-  "repository": "https://github.com/mitchellhamilton/a-random-number",
+  "repository": "https://github.com/preconstruct/a-random-number",
   "devDependencies": {
-    "@babel/preset-env": "^7.4.4",
-    "preconstruct": "^0.0.68"
+    "@babel/core": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@preconstruct/cli": "^1.0.1"
   },
   "scripts": {
     "postinstall": "preconstruct dev",
     "build": "preconstruct build",
-    "release": "yarn build && npm publish"
+    "prepublishOnly": "yarn build"
   },
   "preconstruct": {
     "entrypoints": [
